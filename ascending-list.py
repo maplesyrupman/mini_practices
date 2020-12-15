@@ -14,3 +14,9 @@ def is_ascending(items):
             continue
         return False
     return True
+
+a_list= [1,2,3,4,5,6,7,8,9,10]
+another_list= [1,2,3,4,5,3,2,1]
+
+print(is_ascending(a_list))
+print(is_ascending(another_list))

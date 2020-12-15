@@ -14,7 +14,7 @@ def dubfind(a_list):
             print(i,c)
             if c == i:
                 return True
-        compstart+=1
+        compstart+= 1
         print('__')
     return False
 

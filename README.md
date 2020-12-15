@@ -1,1 +1,1 @@
-This repo stores all my mini_practices files, all of which are independent of eachother. 
+This repo stores all my mini_practices files, all of which run independent of eachother. 
