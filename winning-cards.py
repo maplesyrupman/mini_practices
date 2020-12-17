@@ -21,9 +21,10 @@ def winning_card(cards, trump=None):
             winner= card 
     return winner 
 
-some_cards= [('two', 'clubs'), ('ace', 'diamonds'), ('ace', 'hearts'), ('ace', 'spades')] 
+some_cards= [('eight', 'diamonds'), ('queen', 'diamonds'), ('ace', 'clubs'), ('six', 'diamonds')] 
 
 print(winning_card(some_cards))
+
                 
                 
 
