@@ -8,17 +8,15 @@ Created on Thu Dec 10 17:38:17 2020
 
 def is_cyclops(n):
     nstring= str(n)
-    if len(nstring)%2==0:
-        return False
-    mid = len(nstring)//2
-    if nstring[mid] != '0':
-        return False
+    mid= len(nstring)//2
+    if len(nstring)== 1 and nstring[0] == '0':
+        return True
     for f in nstring[:mid:-1]:
         if f == '0':
             return False
-    for i in range(len(nstring[mid:])):
-        if len(nstring) > 2 and nstring[i-1] == '0':
-            return 
+    for b in nstring[mid+1:]:
+        if b == '0':
+            return False
     return True
         
                  
