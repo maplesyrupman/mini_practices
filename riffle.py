@@ -24,3 +24,7 @@ def riffle(items, out=True):
                 
     return shfl_items 
 
+items= [i for i in range(10)]
+
+print(items)
+print(riffle(items)) 

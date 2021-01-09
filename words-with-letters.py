@@ -6,13 +6,20 @@ Created on Wed Dec 16 16:28:56 2020
 @author: max
 """
 
-def letters_in_words(words, letters):
-    word_list= []
+def words_with_letters(words, letters):
+    wordList = []
     for word in words:
-        if letters in word:
-            word_list.append(word)
-    return word_list 
+        idx=0
+        for letter in word:
+            if letter == letters[idx]:
+                idx+=1
+            if (len(letters)) == idx:
+                wordList.append(word)
+                break
+                
+    return wordList
+        
 
-somewords= ['book', 'shook', 'look', 'hook', 'took', 'hello', 'cat', 'dog', 'too']
+    
 
-print(letters_in_words(somewords, 'oo'))
+

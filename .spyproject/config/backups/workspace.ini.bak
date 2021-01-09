@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['allstrings.py', 'ascending-list.py', 'cyclops-numbers.py', 'domino-cycle.py', 'dubfinder.py', 'only-odd-digits.py', 'README.md']
+recent_files = ['README.md', 'riffle.py', 'cyclops-numbers.py', 'extract-increasing.py', 'words-with-letters.py']
 
